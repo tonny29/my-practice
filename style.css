@@ -1,0 +1,70 @@
+body{
+    font-family: 'Uchen', serif;
+    margin: 0px;
+}
+h1{
+    font-size: 300%;
+}
+.flexible-area{
+    display: flex;
+    margin-bottom: 100px;
+}
+.span{
+    color: blue;
+}
+p{
+    text-align: justify;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    
+}
+.half-width img{
+    width: 80%;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(blue,hotpink);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 800;
+    border-radius: 20px;
+}
+.top-banner{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+.mid-banner{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.last-banner{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.item{
+    box-shadow: 10px 10px 40px gray;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding-left: 20px;
+   padding-right: 20px;
+   width: 40%;
+   
+}
+#one{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,black);
+    border-image-slice: 2;
+}
+#two{
+    border-left: 5px solid;
+    border-image: linear-gradient(black,blue);
+    border-image-slice:2;
+}
+footer p{
+    color: green;
+    text-align: center;
+}
